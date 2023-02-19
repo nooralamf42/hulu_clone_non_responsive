@@ -1,0 +1,445 @@
+body{
+    font-family: 'Graphik', Helvetica, Arial,sans-serif;
+    background-color: #0B0C0F;
+    position: relative;
+}
+
+body,p,a,h1,h2,h3{
+    margin: 0;
+    color: white;
+}
+
+h4{
+    color: #1CE783;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+h5{
+    width: 740px;
+    margin: 20px auto;
+    color: #ffffff99;
+    font-size: 10px;
+    line-height: 1.32;
+}
+
+a{
+    display: block;
+}
+
+h1{
+    font-size: 24px;
+}
+
+p{
+    font-family: "Graphik Web",sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    width: 740px;
+    margin: 20px auto;
+    line-height: 1.32;
+}
+
+header{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.62) 10%,transparent 30%, rgba(0, 0, 0, 0.2) 80%, rgba(0, 0, 0, 0.623) 80%), url("//cnbl-cdn.bamgrid.com/assets/60c53d45f6f0546647ddd4e006a207c713d149586cea401fdc0152f2fa9263a6/original");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 792px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 35px;
+}
+
+nav img{
+    width: 61px;
+}
+
+nav a{
+    font-size: 14px;
+    text-decoration: none;
+    font-weight: 600;
+    color: #a8afbd;
+}
+
+.main{
+    text-align: center;
+    padding: 60px 50px;
+}
+
+.main>button{
+    color: black;
+    border: none;
+    border-radius: 3px;
+    width: 670px;
+    height: 40px;
+    background-color: #1CE783;
+    font-weight: 800;
+    margin-bottom: 18px;
+}
+
+.main img{
+    width: 603px;
+}
+
+.main h1{
+    width: 550px;
+    margin: 20px auto;
+}
+.signup-a{
+    font-size: 18px;
+    padding: 25px;
+}
+
+.ad-hulu-duo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 200px;
+    margin-top: 130px;
+}
+
+.ad-hulu-duo-left{
+    display: flex;
+}
+
+.ad-hulu-duo-left img{
+    width: 355px;
+    margin-right: 20px;
+}
+
+.ad-hulu-duo-right button{
+    font-size: 14px;
+    padding: 15px 30px;
+    border-radius: 3px;
+    color: white;
+    border: white solid 1px;
+    background-color: transparent;
+}
+
+.ad-hulu-duo-right a{
+    font-size: small;
+    text-align: center;
+    margin-top: 3px;
+}
+
+.plans{
+    text-align: center;
+    /* padding: 90px 0; */
+    padding: 90px 370px
+}
+
+.plans h1,.billboard h1,.spotlight h1,.all-plans-header h1{
+    font-size: 48px;
+}
+
+.cards{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.card{
+    position: relative;
+    margin: 0 25px;
+}
+
+.card img{
+    width: 295px;
+    filter: brightness(70%)
+}
+
+.card h1{
+    font-size: 24px;
+    margin-top: -10px;
+}
+
+.plans h5{
+    margin: 3px 0 0 -7px;
+    width: auto;
+}
+
+.card-content{
+    z-index: +1;
+    position: absolute;
+    top: 25;
+    margin-left: 20px;
+    text-align: left;
+}
+
+.billboard{
+    text-align: center;
+    padding: 50px;
+}
+
+.billboard a{
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: .6px
+}
+
+.billboard img{
+    padding: 60px;
+    display: block;
+    margin: 0 auto;
+}
+
+.spotlight{
+    background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.8) -57.5%, rgba(0, 0, 0, 0) 98.72%), url(//cnbl-cdn.bamgrid.com/assets/b8c6dfb74d0a755e8df205721c87b1f8b74821b4229c78492ecca29a2635db9e/original);
+    background-size: cover;
+    height: 870px;
+}
+
+.spotlight span{
+    font-size: 12px;
+    font-weight: bold;
+    color: #ffffff99;
+    padding-right: 31px;
+}
+
+.spotlight span:first-child{
+    text-decoration: underline 4px;
+    text-underline-offset: 15px;
+    color: white;
+}
+
+.spotlight span:hover{
+    filter: contrast(30%);
+    cursor: pointer;
+}
+
+.spotlight h1{
+    padding-top: 45px;
+    padding-bottom: 20px;
+}
+
+.spotlight p{
+    width: 510px;
+    margin:0 ;
+}
+
+.logo{
+    border-radius: 50%;
+    background: white;
+    width: 55px;
+    height: 55px;
+    display: inline-block;
+    margin: 20px;
+    margin-left: 0;
+}
+
+.logo img{
+    width: 93%;
+    margin-top: 20%;
+    margin-left: 3%;
+}
+
+.spotlight-content h5,a{
+    display: inline;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    font-size: 10px;
+    color: #ffffff99;
+}
+
+.spotlight-content{
+    padding: 280px 370px;
+}
+
+.all-plans-header{
+    padding: 80px 370px 0;
+    text-align: center;
+    border-bottom: 1px solid rgba(200,200,200,0.4);
+    padding-bottom: 20px;
+    top: 0;
+}
+
+.all-plan-sticky-header{
+    padding: 0px 370px 0;
+    position: sticky;
+    top: 0;
+    text-align: center;
+    background-color: #0B0C0F;
+}
+.all-plan-sticky-header-content{
+    padding: 27px 0;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid rgba(200,200,200,0.4);
+}
+
+.all-plan-sticky-header-content h2{
+    font-size: 18px;
+    font-weight: 800;
+    padding: 8px;
+}
+
+.row1{
+    display: flex;
+    align-items: center;
+    padding-left: 45px;
+    width: 515px;
+}
+
+.row1 p{
+    width: auto;
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    font-weight: 600;
+    width: max-content;
+    text-align: left;
+}
+
+.row2 , .row3 {
+    width: 360px;
+}
+    
+
+.element2 img{
+    padding: 10px;
+    margin-top: -10px;
+    width: 56px;
+}
+
+.row2 :first-child{
+    background-color: #1CE783;
+    border-radius: 25px;
+    border: none;
+    padding: 12px 36px;
+    font-weight: 700;
+    font-size: 9px;
+    margin-left: -12px;
+}
+
+.price-btn{
+    font-size: 14px;
+    border-radius: 5px;
+    padding: 18px 115px;
+    text-align: center;
+    font-weight: 900;
+    letter-spacing: 2px;
+}
+
+.row3{
+    padding-top: 35px;
+    margin-left: 10px;
+}
+
+.row2 p, .row3 p{
+    font-size: 14px;
+    color: #bec0c2;
+    margin: 17px 0 0 0;
+    font-weight: 700;
+    width: auto;
+}
+
+.plans-details{
+    padding: 10px 370px 35px;
+}
+
+.plan{
+    border-bottom: 1px solid rgba(200,200,200,0.4);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.plan p{
+    width: auto;
+    font-size: 14px;
+}
+
+.plan div:first-child{
+    width: 515px;
+}
+
+.plan div:nth-child(2), .plan div:last-child{
+    width: 360px;
+    text-align: center;
+}
+
+.plan h5{
+    text-align: left;
+    margin: 15px 0 45px;
+    color: white;
+
+}
+
+.plan-bottom{
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    padding: 22px 0;
+}
+.plan-bottom h2{
+    font-size: 16px;
+    display: inline;
+}
+
+footer{
+    padding: 40px 370px;
+    background-color: #e8eaed;
+}
+
+.footer-top a{
+    display: block;
+    font-size: 14px;
+    color: #586174;
+    text-decoration: none;
+    margin: 8px 90px 0 0;
+
+}
+
+.footer-top h3{
+    color: #272c34;
+    font-size: 12px;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-top{
+    padding-bottom: 40px;
+    border-bottom: 2px solid #d9dce2;;
+}
+
+.legal-links{
+    align-self: center;
+}
+
+.footer-bottom{
+    padding-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.social-links{
+    display: flex;
+    justify-content: space-between;
+    width: 14%;
+}
+
+.legal-links{
+    display: flex;
+    width: 85%;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.legal-links a{
+    font-size: 12px;
+    font-weight: 400;
+    color: #586174;
+    text-decoration: none;
+}
+
+.legal-links div{
+    align-items: center;
+}
