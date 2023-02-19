@@ -88,6 +88,11 @@ nav a{
     width: 550px;
     margin: 20px auto;
 }
+
+.main a{
+    display: block;
+    text-align: center;
+}
 .signup-a{
     font-size: 18px;
     padding: 25px;
@@ -98,7 +103,7 @@ nav a{
     justify-content: space-between;
     align-items: center;
     padding: 0 200px;
-    margin-top: 130px;
+    margin-top: 50px;
 }
 
 .ad-hulu-duo-left{
@@ -120,6 +125,7 @@ nav a{
 }
 
 .ad-hulu-duo-right a{
+    display: block;
     font-size: small;
     text-align: center;
     margin-top: 3px;
