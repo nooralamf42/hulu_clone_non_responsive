@@ -151,8 +151,13 @@ nav a{
     filter: brightness(70%)
 }
 
+.card p{
+    width: auto;
+}
+
 .card h1{
     font-size: 24px;
+    width: auto;
     margin-top: -10px;
 }
 
